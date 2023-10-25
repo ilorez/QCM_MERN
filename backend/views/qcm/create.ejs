@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create Qcm</title>
+</head>
+
+<body>
+    <form action="/qcm" method="post">
+        <div>
+            <label for="name">
+                Name:
+            </label>
+            <input type="text" name="name" id="name" placeholder="react" required>
+        </div>
+        <div>
+            <label for="level">
+                Level:
+            </label>
+            <input type="text" name="level" id="level" placeholder="2" required>
+        </div>
+        <div>
+            <label for="questions">
+                Questions:
+            </label>
+            <textarea name="questions" id="questions" cols="100" rows="200"
+                placeholder="put the question array obj here" required minlength="100"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
