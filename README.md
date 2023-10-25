@@ -4,8 +4,9 @@
 come on every one know how to clone i will not explain that
 
 ## run the backend server
-open the backend file and run the index.js using 
+open the backend file and run in terminal
 ```shell
+npm i
 node index.js
 ```
 
@@ -13,6 +14,7 @@ node index.js
 go to forent end and write in terminal
 
 ```
+npm i
 npm run dev
 ```
 
